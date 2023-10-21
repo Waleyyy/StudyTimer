@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(211, 235, 174);
+}
+
+.titel {
+    font-family: Exo;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 0px;
+  }
+
+.mainDiv {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(185, 210, 147);
+    width: 650px;
+    height: 600px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.userInput {
+    display: inline-block;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 580px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.studyTimeInput {
+    border: none;
+    background-color: rgb(171, 206, 118);
+    width: 580px;
+    height: 60px;
+    border-radius: 10px;
+    font-family: Exo;
+    font-size: 20px;
+}
+
+.displayTimer{
+    background-color: rgb(177, 210, 128);
+    text-align: center;
+    margin-top: 60px;
+    width: 580px;
+    display: inline-block;
+    font-family: Exo;
+    font-size: 200px;
+    border-radius: 10px;
+}
+
+.strPauseDiv {
+    background-color: rgb(177, 210, 128);
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Exo;
+    border-radius: 10px;
+    width: 580px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+.strButton, .pauseButton{
+    background-color:rgb(172, 212, 113);
+    width: 260px;
+    display: inline-block;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: Exo;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.strButton:hover, .pauseButton:hover{
+    background-color: rgb(219, 78, 78);
+    color: white;
+}
